@@ -1,0 +1,8 @@
+Number of unique IP Addresses:1753
+Most Active IP Addresses:66.249.73.135 - HITS:482
+Most Active IP Addresses:46.105.14.53 - HITS:364
+Most Active IP Addresses:130.237.218.86 - HITS:357
+Most visited URLS:/favicon.ico - Occurences:807
+Most visited URLS:/style2.css - Occurences:546
+Most visited URLS:/reset.css - Occurences:538
+

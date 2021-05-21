@@ -1,0 +1,8 @@
+Number of unique IP Addresses:11
+Most Active IP Addresses:168.41.191.40 - HITS:4
+Most Active IP Addresses:72.44.32.10 - HITS:3
+Most Active IP Addresses:50.112.00.11 - HITS:3
+Most visited URLS:/docs/manage-websites/ - Occurences:2
+Most visited URLS:http://example.net/faq/ - Occurences:1
+Most visited URLS:http://example.net/blog/category/meta/ - Occurences:1
+
