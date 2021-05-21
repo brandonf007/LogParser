@@ -31,6 +31,8 @@ namespace LogParser
                     // Process the log files
                     ProcessLogFile logger = new ProcessLogFile(file, regexPattern, pLogs);
                     logger.ReadFromFileAndStore();
+                    // Report on success / failed lines
+                    Console.WriteLine(string.Format("The file has been processed where {0} lines were matched by the regex provided and {1} failed",logger.successful,logger.failed));
                     // Sort the processed logs
                     SortProcessedLogs sort = new SortProcessedLogs(pLogs);
                     sort.BeginSort();
