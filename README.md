@@ -24,3 +24,5 @@ LogParser.exe -f filepath/filename.log -o /filePath/existingDirectory
 ```
 
 See [Detailed Guide](https://github.com/brandonf007/LogParser/wiki) on how to use the library in more depth.
+
+NOTE: If the LogParser.UnitTest fails to build and complains about references, ensure that you build LogParser project first, following that you should be able to build the LogParser.UnitTest project, if it still complains about references you may need to remove the existing reference to LogParser under assemblies and readd that reference by right clicking on LogParser.UnitTest->Add->Project Reference and select the the LogParser.dll you built in the first step.
