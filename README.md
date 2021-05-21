@@ -18,7 +18,7 @@ LogParser.exe -f filepath/filename.log -r "\.*(IPAddress)\.*(URL)\.*"
 ```
 The regular expression provided above is just an example and cannot be used to run the Console Application
 
-Default output of the Console Application is to the console, if you want to write a text file to an existing directory (defaults to Output.txt)
+Default output of the Console Application is to the console, if you want to write the result in a text file, you will be required to provide the -o flag with an existing directory (defaults to Output.txt)
 ```cmd
 LogParser.exe -f filepath/filename.log -o /filePath/existingDirectory
 ```
