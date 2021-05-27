@@ -18,9 +18,11 @@ LogParser.exe -f filepath/filename.log -r "\.*(IPAddress)\.*(URL)\.*"
 ```
 The regular expression provided above is just an example and cannot be used to run the Console Application
 
-Default output of the Console Application is to the console, if you want to write a text file to an existing directory (defaults to Output.txt)
+Default output of the Console Application is to the console, if you want to write the result in a text file, you will be required to provide the -o flag with an existing directory (defaults to Output.txt)
 ```cmd
 LogParser.exe -f filepath/filename.log -o /filePath/existingDirectory
 ```
 
 See [Detailed Guide](https://github.com/brandonf007/LogParser/wiki) on how to use the library in more depth.
+
+NOTE: If the LogParser.UnitTest fails to build and complains about references, ensure that you build LogParser project first, following that you should be able to build the LogParser.UnitTest project, if it still complains about references you may need to remove the existing reference to LogParser under assemblies and readd that reference by right clicking on LogParser.UnitTest->Add->Project Reference and select the the LogParser.dll you built in the first step.
