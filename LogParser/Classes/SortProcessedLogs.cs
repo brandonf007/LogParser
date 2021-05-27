@@ -59,9 +59,9 @@ namespace LogParser
             if (asc)
             {
                 if(!thenBy)
-                    sortedIPList = pLogs.GetIpAddresses().AsParallel().OrderBy(d => d.Value).ThenBy(x => x.Key).ToList();
-                else
                     sortedIPList = pLogs.GetIpAddresses().AsParallel().OrderBy(d => d.Value).ToList();
+                else                    
+                    sortedIPList = pLogs.GetIpAddresses().AsParallel().OrderBy(d => d.Value).ThenBy(x => x.Key).ToList();
             }
             else
             {

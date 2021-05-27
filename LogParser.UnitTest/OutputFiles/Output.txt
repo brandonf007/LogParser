@@ -1,8 +1,0 @@
-Number of unique IP Addresses:3
-Most Active IP Addresses:192.168.1.1 - HITS:100
-Most Active IP Addresses:192.168.1.10 - HITS:50
-Most Active IP Addresses:192.168.1.100 - HITS:25
-Most visited URLS:/test/test1 - Occurences:100
-Most visited URLS:/test/test2 - Occurences:50
-Most visited URLS:/test/test3 - Occurences:25
-
